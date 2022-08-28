@@ -21,12 +21,12 @@ html{
   "banner banner"  
   "footer footer"
 }
-header{grid-area: header; background-color: #04202C;}
+
+header{grid-area: header; background-image: linear-gradient(to left, black, gray, blue, skyblue, green); /*background-color: #04202C;*/}
 nav{width: 100%;}
 ul{display: flex;justify-content: flex-end;flex-wrap: wrap;}
 section{grid-area: banner;}
-footer{grid-area: footer; display:flex; justify-content: center;}
-
+footer{grid-area: footer; display:flex; justify-content: center; background-image: linear-gradient(to left, black, gray, blue, skyblue, green);}
 
 
 .header__logo img{
