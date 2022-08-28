@@ -36,6 +36,20 @@ footer{grid-area: footer; display:flex; justify-content: center; background-imag
   padding-bottom: 15px;
 }
 
+@keyframes movimiento{
+  0%{transform: translateX(5px);}
+  /*25%{transform: skew(60deg,60deg);}*/
+  50%{transform: rotate(45deg);}
+  75%{transform: translate(50px, 50px);}
+  100%{transform: scale(1,1);}
+}
+
+.logo{
+  animation-name: movimiento;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+
 .navbar{
   display: flex;
   flex-direction: row;
